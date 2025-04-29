@@ -7,4 +7,4 @@ const { getHash } = require('./passwordHasher');
 describe('Password Hasher', function () {
   it('повертає хеш при однакових паролях', async function () {
     const promptStub = sinon.stub(prompt, 'get');
-    promptStub.resolves({ passwo
+    promptStub.resolves({ password
